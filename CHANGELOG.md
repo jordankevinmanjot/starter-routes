@@ -6,3 +6,4 @@ CHANGELOG
 =========
 
 - fixed issue #1 KL
+- Fixed issue #2; Added Last Controller
