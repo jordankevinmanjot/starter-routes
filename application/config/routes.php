@@ -61,3 +61,5 @@ $route['dunno'] = function(){
     readfile($source);
     die();
 };
+
+$route['sleep'] = 'first/zzz';
