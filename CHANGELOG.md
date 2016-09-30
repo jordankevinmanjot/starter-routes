@@ -11,3 +11,4 @@ CHANGELOG
 - Fixed issues #6; Dunno route - Jordan Hamade
 - Fixed issue #3; sleep route - Jordan Hamade
 - fixed issue #7; regex route KL
+- Fixed issue #9; hooks - Jordan Hamade
