@@ -30,4 +30,20 @@ class Welcome extends Application
 		$this->render();
 	}
 
+	//display elaine boosler
+	public function shucks(){
+
+		// this is the view we want shown
+		$this->data['pagebody'] = 'justone';
+
+		// get the first author
+		$record = $this->quotes->get(2);
+		$this->data = array_merge($this->data, $record);
+
+		$this->render();
+
+	}
+
+
+
 }
