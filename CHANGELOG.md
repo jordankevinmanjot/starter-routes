@@ -10,3 +10,4 @@ CHANGELOG
 - fixed issues #4; added wildcard for lock/em/up KL
 - Fixed issues #6; Dunno route - Jordan Hamade
 - Fixed issue #3; sleep route - Jordan Hamade
+- fixed issue #7; regex route KL

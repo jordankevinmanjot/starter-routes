@@ -53,6 +53,7 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['lock/(:any)/(:any)'] = 'Welcome/shucks';
+$route['^[a-zA-z]{4}/bingo'] = 'Bingo';
 
 $route['dunno'] = function(){
     $source = './data/surprise.jpg';
