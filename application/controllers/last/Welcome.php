@@ -2,7 +2,7 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Last extends Application
+class Welcome extends Application
 {
 
     function __construct()
@@ -17,8 +17,8 @@ class Last extends Application
     {
         // this is the view we want shown
         $this->data['pagebody'] = 'justone';
-
-        // build the list of authors, to pass on to our view
+        
+		// build the list of authors, to pass on to our view
         $sizeOfQuotes = count($this->quotes->all());
         $record = $this->quotes->get( $sizeOfQuotes );
 
