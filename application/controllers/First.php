@@ -35,4 +35,15 @@ class First extends Application
 
 		$this->render();
     }
+
+	public function gimme($id) {
+		$this->data['pagebody'] = 'justone';
+
+		// get the author passed into the url parameter
+		$record = $this->quotes->get($id);
+		$this->data = array_merge($this->data, $record);
+	
+		$this->render();
+    }
+
 }
